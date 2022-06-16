@@ -57,9 +57,6 @@ Dependencies defined in package.json:
   - Things I'm good at (Skills)
   - Resume button
 - Recent Projects (using GitHub API) (optional)
-- Leadership (optional)
-  - Paragraph
-  - Carousel images
 - Skills (optional)
   - Technical Skills
   - Soft Skills

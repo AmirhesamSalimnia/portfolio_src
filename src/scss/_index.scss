@@ -102,6 +102,8 @@ code {
 }
 
 .card {
+  align-items: center;
+  flex-direction: row;
   transition: transform 0.3s, box-shadow 0.3s;
   &:hover {
     box-shadow: 0 2rem 3rem rgba($black, 0.175) !important;
@@ -109,6 +111,14 @@ code {
     transition: transform 0.3s, box-shadow 0.3s;
   }
 }
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
 .skills-tabs {
   flex-grow: 1;
 }
