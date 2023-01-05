@@ -64,28 +64,40 @@ const selected_project = {
   show: true,
   heading: "Notable Projects",
   projects_arr: [
+    { name: "Multi-Source-free Domain Adaptation for Emotion Recognition", 
+      description: "Proposing Attention-based Multi-Source-Free Domain Adaptation (AMFDA) for EEG emotion recognition. AMFDA attempts to transfer knowledge of source models to the target domain by aggregating adapted source models based on a set of learnable weights without accessing the source data. Extensive experiments on two EEG-based emotion recognition datasets demonstrate that the proposed AMFDA method performs comparably to unsupervised domain adaptation state-of-the-art methods, which additionally have access to source data.",
+      img: "eeg.png",
+      specfic: ["Domain Adaptation", "EEG", "Attention", "Self-supervised Learning","PyTorch"],
+      time: "Fall 2022" 
+    },
+    { name: "Physics-Informed Neural Networks", 
+      description: "Solving partial differential equations using a data-driven solution, based on recurrent neural networks to extract features from time-series data",
+      img: "PDE.png",
+      specfic: ["Time-Series Data", "RNN", "JAX", "Tensorflow", "PyTorch"],
+      time: "Summer 2022" 
+    },
     { name: "Cross Modal Generation", 
       description: "Generating audio based on the visual information from video using VQ-VAE and transformers.",
       img: "Spec.png",
-      specfic: ["Audio Representation Learning", "Audio Representation Learning", "Transformers", "OpenCV","PyTorch", "Python"],
+      specfic: ["Audio Representation Learning", "Audio Representation Learning", "Transformers", "OpenCV", "FFMPEG", "PyTorch", "SLURM"],
       time: "Fall 2021" 
     },
     { name: "Multi Resolution Memory for Anomaly Detection (MRMAD)", 
       description: "Proposing new method to detect open set anomaly with distilling multi-resolution knowledge into memory",
       img: "Anomaly.png",
-      specfic: ["Anomaly Detection", "Multiresolution Knowledge Distillation", "PyTorch", "Python"],
+      specfic: ["Anomaly Detection", "Multiresolution Knowledge Distillation", "PyTorch", "Weights and Biases"],
       time: "Fall 2021" 
     },
     { name: "Image Restoration", 
       description: "Recovering low-quality images using domain translation network which translates the latent space of degraded photos into clean ones.",
       img: "Image_Restoration.png",
-      specfic: ["Computer Vision", "Domain Translation", "Image Enhancement", "PyTorch", "Python"],
+      specfic: ["Computer Vision", "Domain Translation", "Image Enhancement", "PyTorch", "PIL"],
       time: "Fall 2020" 
     },
     { name: "Multiple Object Tracking in Crowded Scene", 
       description: "At Avir Company, we are implementin and developing a Tractor which tackles multi-object tracking by exploiting the regression head of a detector to perform temporal realignment of object bounding boxes, in addition to two extensions, reidentification Siamese network, and motion model.",
       img: "/MOT.b741fcbd.gif",
-      specfic: ["Computer Vision", "MOT", "Image Segmentation", "Object Detection", "PyTorch", "Python"],
+      specfic: ["Computer Vision", "MOT", "Image Segmentation", "Object Detection", "Faster-RCNN", "PyTorch"],
       time: "Fall 2020"
     },
     { name: "Music Retrieval", 
@@ -97,7 +109,7 @@ const selected_project = {
     { name: "AI Main Types Problems and Algorithms", 
       description: "Implementing basic algorithms to solve a wide range of AI problems ranging from Supervised Learning to Reinforcement Learning.",
       img: "AI_icon.png",
-      specfic: ["ML", "NLP", "Classifying", "Regression", "Naïve Bayes", "Genetic Algorithm", "Search Algorithm", "Decision Tree", "Data Analysis", "Python"],
+      specfic: ["ML", "NLP", "Classifying", "Regression", "Naïve Bayes", "Genetic Algorithm", "Search Algorithm", "Decision Tree", "Data Analysis", "NLTK", "PyTorch", "Tensorflow", "Python"],
       repo_url: "https://github.com/AmirhesamSalimnia/Artificial-Intelligence-Projects",
       time:"Spring 2020"
     },
@@ -111,7 +123,7 @@ const selected_project = {
     { name: "ACM Vahed", 
       description: "ACM Vahed is a web application helps students to plan their courses and it's implemented with Django framework. This platform is currently available only for college of electrical & computer engineering students at university of Tehran, But we have plans to scale it up and service students from other colleges and universities.",
       img: "/acm.13029f2f.png",
-      specfic: ["Backend Programming", "RESTful Programming", "Django"],
+      specfic: ["Backend Programming", "RESTful Programming", "Django", "MySQL"],
       time: "Summer 2017"
     },
     // { name: "Three Connected Tank", 
